@@ -6,7 +6,7 @@ def good(s):
                         return True;
         else:
                 return False;
-token="5792141371:AAFeMB0tKzXF1K0mIUpz9rZvlKol2wXxXeM";
+token="";
 bot = telebot.TeleBot(token);
 with open("schedule.json", encoding="utf-8") as file:
         sche=json.load(file);
