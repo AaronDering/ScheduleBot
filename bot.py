@@ -9,7 +9,7 @@ def good(s):
 def change_json(diction):
         with open("users.json","w",encoding="utf-8") as file:
                 json.dump(diction, file);
-token="5792141371:AAFeMB0tKzXF1K0mIUpz9rZvlKol2wXxXeM";
+token="yourToken";
 bot = telebot.TeleBot(token);
 with open("schedule.json", encoding="utf-8") as file:
         sche=json.load(file);
